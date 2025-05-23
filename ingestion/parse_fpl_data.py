@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 
 
-# Get the project root directory (two levels up from this file)
+# Get the project root directory
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
